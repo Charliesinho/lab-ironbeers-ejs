@@ -1,8 +1,16 @@
-<div>
+<div class="bigGirl">
     <% beerInfo.forEach((beer)=> { %>
-        <%- include('./partials/beer.ejs', {beer}) %>    
-        <p><%- beer.food_pairing %></p> 
-        <p><%- beer.brewers_tips %></p> 
-    <% }) %>   
-        
+        <%- include('./partials/beer.ejs', {beer}) %>
+         
+
+        <div class="smallGirl">
+            <ul> 
+                <h3>Food pairing</h3>
+                <% beer.food_pairing.forEach((pair)=> { %> 
+                    <li><%- pair %></li> 
+                <% }) %> 
+            </ul> 
+            <p><strong>Brewer Tips: </strong><%- beer.brewers_tips %></p> 
+        </div>
+    <% }) %>    
 </div>

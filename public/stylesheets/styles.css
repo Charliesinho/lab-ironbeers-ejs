@@ -5,3 +5,179 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer {
+    display: flex;    
+    align-items: center;
+    background-color: #0a2c42;   
+    text-align: center;
+    position: sticky;
+    width: 100vw;
+    height: 60px;
+    bottom: 0px;
+    margin-top: auto;
+}
+
+.footer p {
+    padding-left: 50px;
+    text-decoration: none; 
+    color: white;
+}
+
+.nav-bar {
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+    height: 80px;
+    align-items: center;
+    background-color: #2081c3;
+    box-shadow: 0 0 6px black;
+}
+.nav-bar a{
+    color: beige;
+    text-decoration: none;
+}
+
+.buttonsIndex {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    text-decoration: none; 
+    color: white;
+    padding-bottom: 50px;
+}
+
+#button1 {
+    color: white;
+    text-decoration: none;  
+    text-decoration-line: none;
+}
+#button2 {
+    color: white;
+    text-decoration: none;  
+    text-decoration-line: none;
+}
+
+.buttonsIndex button:last-child{
+    height: 60px; 
+    width: 300px;  
+    text-decoration: none;  
+    text-decoration-line: none;
+    background-color: #2081c3;
+    box-shadow: 0 0 6px black;
+    border-color: transparent;
+}
+
+.buttonsIndex button:first-child{
+    height: 60px; 
+    width: 200px;    
+    text-decoration: none;  
+    text-decoration-line: none;
+    background-color: #2081c3;
+    box-shadow: 0 0 6px black;
+    border-color: transparent;
+}
+
+.buttonsIndex {
+    gap: 30px;  
+    text-decoration: none;  
+    text-decoration-line: none;
+}
+
+#img {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+
+.genBeer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.bigBoy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    gap: 5%;
+    padding-top: 100px;
+    align-items: flex-start;
+    
+}
+
+.imgBeer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgBeer img {
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.infoBeer {
+    padding-bottom: 100px;
+}
+
+.titleBeer {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.paraBeer {    
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.tagbeer {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    padding-bottom: 10px;
+    
+}
+
+.bigGirl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px;
+    margin: auto;
+    width: 80%;
+    gap: 30px;
+}
+
+.smallGirl {
+   padding: 5%;
+    
+}
